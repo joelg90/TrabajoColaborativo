@@ -1,0 +1,48 @@
+```css
+/* Estilos generales de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333333;
+    margin: 40px;
+    line-height: 1.6;
+}
+
+/* Título principal */
+h1 {
+    color: #d35400;
+    text-align: center;
+}
+
+/* Subtítulos */
+h2 {
+    color: #2980b9;
+    border-bottom: 2px solid #2980b9;
+    padding-bottom: 5px;
+}
+
+/* Listas de ingredientes y preparación */
+ul, ol {
+    background-color: #ffffff;
+    padding: 20px 40px;
+    border-radius: 8px;
+}
+
+/* Párrafos */
+p {
+    font-size: 16px;
+}
+
+/* Línea divisoria */
+hr {
+    border: none;
+    border-top: 1px solid #cccccc;
+}
+
+/* Adaptación a pantallas pequeñas */
+@media (max-width: 600px) {
+    body {
+        margin: 15px;
+    }
+}
+```
